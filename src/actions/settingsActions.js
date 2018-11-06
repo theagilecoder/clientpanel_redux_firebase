@@ -6,21 +6,18 @@ import {
 
 export const setDisableBalanceOnAdd = () => {
   return {
-    type: DISABLE_BALANCE_ON_ADD,
-    payload: settings.disableBalanceOnAdd
+    type: DISABLE_BALANCE_ON_ADD
   };
 };
 
 export const setDisableBalanceOnEdit = () => {
   return {
-    type: DISABLE_BALANCE_ON_EDIT,
-    payload: settings.disableBalanceOnEdit
+    type: DISABLE_BALANCE_ON_EDIT
   };
 };
 
 export const setAllowRegistration = () => {
   return {
-    type: ALLOW_REGISTRATION,
-    payload: settings.allowRegistration
+    type: ALLOW_REGISTRATION
   };
 };
